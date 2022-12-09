@@ -95,9 +95,33 @@ console.log("Am I old enough to drive? " + check)
 
 
 // ****************************************************TASK 3****************************************************
+function addNumbers(x,y) {
+    return x + y
+}
 
+function subtractNumbers(x,y) {
+    return x - y
+}
 
+function multiplyNumbers(x,y) {
+    return x * y
+}
 
+function divideNumbers(x,y) {
+    return x / y
+}
+
+const calculator = {
+    add: addNumbers,
+    subtract: subtractNumbers,
+    multiply: multiplyNumbers,
+    divide: divideNumbers
+}
+
+console.log(calculator.add(2,3))
+console.log(calculator.subtract(3,2))
+console.log(calculator.multiply(3,2))
+console.log(calculator.divide(6,3))
 
 
 
