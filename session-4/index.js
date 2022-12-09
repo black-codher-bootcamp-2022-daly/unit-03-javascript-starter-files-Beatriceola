@@ -125,6 +125,14 @@ console.log(calculator.divide(6,3))
 
 
 
+function whoIsOlder (personA, personB) {
+  
+    const ageDifference = personA.age - personB.age
+  
+  return `${personA.name} is ${ageDifference} years older than ${personB.name}` 
+  };
+  
+  console.log(whoIsOlder(personA, personB))
 
 
 
