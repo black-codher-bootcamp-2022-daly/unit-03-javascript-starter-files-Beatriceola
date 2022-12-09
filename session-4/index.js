@@ -76,7 +76,12 @@ const powerOf = x**y
 
 console.log("6 to the power of 4 is "  + powerOf);
 
+const myAge = 22;
+const minimumDrivingAge = 17;
 
+let check = myAge >= minimumDrivingAge
+
+console.log("Am I old enough to drive? " + check)
 
 
 
