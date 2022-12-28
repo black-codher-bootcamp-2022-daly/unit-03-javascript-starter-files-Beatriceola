@@ -22,4 +22,4 @@ function getGrade(total){
     };
     }
     
-    console.log(getGrade(50));
+    console.log(getGrade());
